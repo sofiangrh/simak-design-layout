@@ -1,5 +1,5 @@
 #simak-design-layout
-===================
+---
 
 ### Tentang simak design layout
 
