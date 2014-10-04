@@ -8,7 +8,8 @@ simak design layout merupakan sebuah desain halaman muka sistem akademik Univers
 
 ### Pengetahuan Dasar
 
+## Dasar Pemrograman HTML5
+
 Beberapa pengatahuan dasar yang dibutuhkan untuk pengembangan
 
-1. Dasar Pemrograman HTML5 
-   Refresensi: ([http://www.w3schools.com/html/html5_intro.asp] (http://www.w3schools.com/html/html5_intro.asp))
+1. Refresensi: ([http://www.w3schools.com/html/html5_intro.asp] (http://www.w3schools.com/html/html5_intro.asp))
