@@ -14,6 +14,8 @@ Beberapa pengatahuan dasar yang dibutuhkan untuk pengembangan
    (Referensi: [http://www.w3schools.com/html/html5_intro.asp] (http://www.w3schools.com/html/html5_intro.asp))
 2. Dasar Pemrograman **CSS**
    (Referensi: [http://www.w3schools.com/css/default.asp] (http://www.w3schools.com/css/default.asp))
+3. Dasar-dasar penggunaan **javascript**
+   (Referensi: [http://www.w3schools.com/js/] (http://www.w3schools.com/js/))
 
 ### Tampilan Layout
 
