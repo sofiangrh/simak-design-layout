@@ -771,7 +771,7 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 
 
 .iconmenu ul li a { 
-	padding-left: 35px; background-image: url(../images/default/icons_sprite.png); background-repeat: no-repeat; background-position: 10px 12px; 
+	padding-left: 35px; background-image: url(../images/default/icons_sprites.png); background-repeat: no-repeat; background-position: 10px 12px; 
 }
 .iconmenu ul li a:hover { background-image: url(../images/default/icons_sprite2.png); }
 .iconmenu ul li.current a:hover { background-image: url(../images/default/icons_sprite.png); }
