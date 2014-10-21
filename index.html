@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 	<!-- Data Meta -->
-	<meta charset="utf-8">
+	
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -15,140 +15,147 @@
 	<title>Sistem Informasi Akademik</title>
 
 	<!-- CSS Eksternal -->
-	<link rel="stylesheet" href="./css/style.default.css" type="text/css">
+	<link rel="stylesheet" href="css/style.default.css" type="text/css">
 
-	<!-- Favicon -- >
-	<link rel="SHORTCUT ICON" href="" type="">
+	<!-- Favicon -->
+	<link rel="SHORTCUT ICON" href="gambar.png" type="image/x-png">
 
-	<!-- Javascript -- >
-	<script type="text/javascript" src="./javascript/jquery-1.7.min.js"></script>
-	<script type="text/javascript" src="./javascript/jquery-ui-1.8.16.custom.min.js"></script>
-	<script type="text/javascript" src="./javascript/jquery.cookie.js"></script>
-	<script type="text/javascript" src="./javascript/jquery.dataTables.min.js"></script>
-	<script type="text/javascript" src="./javascript/jquery.uniform.min.js"></script>
-	<script type="text/javascript" src="./javascript/jquery.bxSlider.min.js"></script>
-	<script type="text/javascript" src="./javascript/jquery.slimscroll.js"></script>
-	<script type="text/javascript" src="./javascript/general.js"></script>
-	<script type="text/javascript" src="./javascript/tables.js"></script>
-	<script type="text/javascript" src="./javascript/widgets.js"></script>
-	<script type="text/javascript" src="./javascript/forms.js"></script>  
-	<script type="text/javascript" src="./javascript/jquery.tipsy.js"></script>
-	<script type="text/javascript" src="./javascript/index.js"></script>
+	<!-- Javascript -->
+	<script type="text/javascript" src="javascript/jquery-1.7.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery-ui-1.8.16.custom.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.cookie.js"></script>
+	<script type="text/javascript" src="javascript/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.uniform.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.bxSlider.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.slimscroll.js"></script>
+	<script type="text/javascript" src="javascript/general.js"></script>
+	<script type="text/javascript" src="javascript/tables.js"></script>
+	<script type="text/javascript" src="javascript/widgets.js"></script>
+	<script type="text/javascript" src="javascript/forms.js"></script>  
+	<script type="text/javascript" src="javascript/jquery.tipsy.js"></script>
+	<script type="text/javascript" src="javascript/index.js"></script>
 </head>
 <body class="loginpage">
 
-<div class="loginbox">
+	<div class="loginbox">
     
-    	<div class="loginboxinner">
+    		<div class="loginboxinner">
         	
-            		<div class="logo">
-            			<h1>UNIVERSITAS SILIWANGI TASIKMALAYA</h1>
-                		<p></p>
-            		</div>
+            			<div class="logo">
+            				<h1>UNIVERSITAS SILIWANGI TASIKMALAYA</h1>
+                			<p></p>
+            			</div>
             
                         
-           	<!-- Form Untuk Login -->
-		<form id="login" name="log" action="./javascript/index.html" method="post">
+           		<!-- Form Untuk Login -->
+			<form id="login" name="log" action="" method="post">
 
-                	<div class="username">
-                		<div class="usernameinner">
-                    		<input type="text" name="iduser" id="iduser" placeholder="Username">
-                    		</div>
-                	</div>
+                		<div class="username">
+                			<div class="usernameinner">
+                    				<input type="text" name="iduser" id="iduser" placeholder="Username">
+                    			</div>
+                		</div>
                 
-                	<div class="password">
-                		<div class="passwordinner">
-                    		<input type="password" name="password" id="password" placeholder="Password">
-                    		</div>
-                	</div>
+                		<div class="password">
+                			<div class="passwordinner">
+                    				<input type="password" name="password" id="password" placeholder="Password">
+                    			</div>
+                		</div>
                 
-                
-                 	<div class="combobox">
-                  		<div class="comboboxinner">
-                      			<label></label>
-                      			<span class="field"></span>
-                      				<div class="selector" id="uniform-undefined"><span>- Pilih Jenis User -</span><select name="jenisuser" style="opacity: 0;">
-                          				<option value="">- Pilih Jenis User -</option>
-                        				<option value="0" selected="">Pegawai</option>
-                        				<option value="1">Dosen</option>
-                        				<option value="2">Mahasiswa</option>
-                        				<option value="3">Ortu/Wali</option>                            
-                      					</select>
-						</div>
+                		<!-- Combo Box Jenis User -->
+                 		<div class="combobox">
+                  			<div class="comboboxinner">
+                      				<label></label>
+                      				<span class="field"></span>
+                      					<div class="selector" id="uniform-undefined"><span>- Pilih Jenis User -</span>
+								<select name="jenisuser" style="opacity: 0;">
+                          						<option value="" selected="">- Pilih Jenis User -</option>
+                        						<option value="0">Pegawai</option>
+                        						<option value="1">Dosen</option>
+                        						<option value="2">Mahasiswa</option>
+                        						<option value="3">Ortu/Wali</option>                            
+                      						</select>
+							</div>
+                  			</div>
                   		</div>
-                  	</div>
                 
-                	<div class="spamBox">
-                  		<p class="antispam">Anti Spam</p>
-                  		<img class="codenumber" src="./captha/antispam.php">
-                  			<div class="spamform">
-                    				<div class="spamforminner">
-                      					<input type="text" name="randlogin" id="randlogin" placeholder="Masukan Kode">
-                    				</div>
-                  			</div>                  
-                  				<ul class="info">
-                   					<li>Apabila kode tidak jelas Refresh untuk memperoleh kode baru</li>
-                    					<li>Harap gunakan layanan SIMAK dengan baik, wajar dan penuh dengan tanggung jawab</li>
-                  				</ul> 
-                	</div>
-                		<input type="hidden" name="aksi" value="Login">
+				<!-- Box Untuk Captha -->
+                		<div class="spamBox">
+                  			<p class="antispam">Anti Spam</p>
+                  				<img class="codenumber" src="./captha/antispam.php">
+                  					<div class="spamform">
+                    						<div class="spamforminner">
+                      							<input type="text" name="randlogin" id="randlogin" placeholder="Masukan Kode">
+                    						</div>
+                  					</div>                  
+                  					<ul class="info">
+                   						<li>Apabila kode tidak jelas Refresh untuk memperoleh kode baru</li>
+                    						<li>Harap gunakan layanan SIMAK dengan baik, wajar dan penuh dengan tanggung jawab</li>
+                  					</ul> 
+                		</div>
+                			<input type="hidden" name="aksi" value="Login">
                 
-                	<button>Login</button>            
-		</form>
+                		<button>Login</button>            
+			</form>
             
-        </div>
+        	</div>
         
-        <div class="ColumnInfo">
+        	<div class="ColumnInfo">
         	
-            <div class="boxlogo"> <!-- box logo universitas -->
-                <a href=""><img class="logoIndex" src=""></a>
-                <h4 class="titleunv">Sistem Informasi  Akademik<br>UNIVERSITAS SILIWANGI TASIKMALAYA</h4><br>
-                <p class="address">Jl. Siliwangi No. 24</p>
-            </div>
-        	<br clear="all">
+			<!-- box logo universitas -->
+            		<div class="boxlogo"> 
+                		<a href="http://simak.unsil.ac.id"><img class="logoIndex" src="logo/unsil.png"/></a>
+                		<h4 class="titleunv">Sistem Informasi  Akademik<br>UNIVERSITAS SILIWANGI TASIKMALAYA</h4><br>
+                		<p class="address">Jl. Siliwangi No. 24</p>
+            		</div>
+        			<br clear="all">
             
-        	<h4 class="heading">Info Singkat</h4>
-        	<div class="contentInfo">
-            	<div style="position: relative; overflow: hidden; width: auto; height: 400px;" class="slimScrollDiv"><div id="scroll1" class="mousescroll" style="overflow: hidden; width: auto; height: 400px;">
-            	<ul class="lineInfo">
-                                           <li>
-                          <p>
-                          <span>&nbsp;</span><br>
-                          <cite>nama - tgl</cite><br>
-                          isi berita</p>
-                        </li>                    
+        			<h4 class="heading">Info Singkat</h4>
+        		<div class="contentInfo">
+            			<div style="position: relative; overflow: hidden; width: auto; height: 400px;" class="slimScrollDiv">
+					<div id="scroll1" class="mousescroll" style="overflow: hidden; width: auto; height: 400px;">
+            					<ul class="lineInfo">
+
+							<!-- Sekilas Info -->
+                                           		<li>
+                          					<p>
+                          					<span>&nbsp;</span><br>
+                          					<cite>nama - tgl</cite><br>
+                          					isi berita</p>
+                        				</li>                    
                     
-                                            <li>
-                          <p>
-                          <span>&nbsp;</span><br>
-                          <cite>nama - tgl</cite><br>
-                          isi berita</p>
-                        </li>                    
+                                            		<li>
+                          					<p>
+                          					<span>&nbsp;</span><br>
+                          					<cite>nama - tgl</cite><br>
+                          					isi berita</p>
+                        				</li>                    
                     
-                                            <li>
-                          <p>
-                          <span>&nbsp;</span><br>
-                          <cite>nama - tgl</cite><br>
-                          isi berita</p>
-                        </li>                    
+                                            		<li>
+                          					<p>
+                          					<span>&nbsp;</span><br>
+                          					<cite>nama - tgl</cite><br>
+                          					isi berita</p>
+                        					</li>                    
                     
-                                            <li>
-                          <p>
-                          <span>&nbsp;</span><br>
-                          <cite>nama - tgl</cite><br>
-                          isi berita</p>
-                        </li>                                        
-                                    </ul>
-                </div><div class="slimScrollBar  ui-draggable" style="border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; background-color: rgb(102, 102, 102); width: 6px; position: absolute; top: 0px; opacity: 0.4; z-index: 99; right: 1px; height: 150.9433962264151px; display: block; background-position: initial initial; background-repeat: initial initial;"></div><div style="width: 15px; height: 100%; position: absolute; top: 0px; right: 1px;"></div></div>
-            </div>
-        </div>
+                                            		<li>
+                          					<p>
+                          					<span>&nbsp;</span><br>
+                          					<cite>nama - tgl</cite><br>
+                          					isi berita</p>
+                        				</li>                                        
+                                    		</ul>
+                			</div>
+
+				<div class="slimScrollBar  ui-draggable" style="border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; background-color: rgb(102, 102, 102); width: 6px; position: absolute; top: 0px; opacity: 0.4; z-index: 99; right: 1px; height: 150.9433962264151px; display: block; background-position: initial initial; background-repeat: initial initial;">
+				</div>
+					<div style="width: 15px; height: 100%; position: absolute; top: 0px; right: 1px;">
+					</div>
+				</div>
+			</div>
+		</div>
         
         <br clear="all">
-    </div>
-
-
-
-
-
+    	</div>
 </body>
 </html>

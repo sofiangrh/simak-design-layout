@@ -1,6 +1,6 @@
 /***
- * Dibuat oleh : Mienard Lumaad
- * Tanggal: 15 Mei 2012
+ * Created by: Mienard Lumaad
+ * Date: May 15, 2012
  * Website: http://themepixels.com/
 ***/
 
@@ -19,7 +19,7 @@
 @import url('plugins/plugins.css');
 
 
-/***** 1. Reset Tampilan *****/
+/***** 1. RESET STYLE *****/
 /**************************/
 
 html, body, div, span, applet, object, iframe,
@@ -38,7 +38,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 
-/***** 2. Tampilan Utama *****/
+/***** 2. GENERAL STYLES *****/
 /*****************************/
 
 
@@ -62,7 +62,7 @@ body.withmenucoll { background-position: 55px 0; } /* with menu style 1 in colla
 body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in collapsed mode */
 
 
-/***** 3. Bagian Kolom *****/
+/***** 3. COLUMN STYLE *****/
 /***************************/
 
 
@@ -83,7 +83,7 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 
 .last{ margin-right:0 !important; clear:right; }
 
-/***** 4. Halaman Login *****/
+/***** 4. LOGIN PAGE *****/
 /*************************/
 
 .loginpage { background:url(../images/default/bg_login.jpg); }
@@ -199,7 +199,7 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 .bodywrapper { position:relative; top:28px;}
 
 
-/***** 4.1. Halaman Popup *****/
+/***** 4.1. POPUP PAGE *****/
 /*************************/
 .centerpopup {position: relative;}
 .contentpopup {padding: 20px; border:none;}
@@ -208,7 +208,7 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 
 
 
-/***** 5. Header Bagian Atas *****/
+/***** 5. TOP HEADER STYLES *****/
 /********************************/
 .header { 
 	background: #323b43; min-height: 25px; overflow: hidden; border-bottom: 1px solid #404040; 
@@ -444,8 +444,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 
 
 
-/***** 5. Tampilan Pemberitahuan *****/
-/************************************/
+/***** 5. NOTIFICATION STYLES *****/
+/**********************************/
 
 
 .notitab { list-style: none; overflow: hidden; border-bottom: 1px solid #FB9337; padding: 5px 5px 0 5px; margin-bottom: 1px; }
@@ -487,8 +487,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 .actlist li span { display: block; font-size: 10px; color: #999; }
 
 
-/***** 6. Tampilan Informasi Pengguna *****/
-/*****************************************/
+/***** 6. USER INFORMATION DROP STYLES *****/
+/*******************************************/
 
 
 .userinfo { 
@@ -634,8 +634,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 .dropdata ul li a:hover { background: #32718a; color: #fff; }
 
 
-/***** 7. Tampilan Header *****/
-/*****************************/
+/***** 7. HEADER STYLES *****/
+/****************************/
 
 .headermenu { overflow: hidden; list-style: none; border-right: 1px solid #576a85; display: inline-block; }
 .headermenu li { float: left; display: inline-block; border-left: 1px solid #576a85; border-right: 1px solid #394962; }
@@ -679,8 +679,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 }
 
 
-/***** 8. Tampilan Halaman Header *****/
-/*************************************/
+/***** 8. PAGE HEADER STYLES *****/
+/*********************************/
 
 
 .pageheader { padding: 10px; background:#f9f9f9; border-bottom:1px solid #c7c7c7; position: relative; }
@@ -691,8 +691,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 .notab { border-bottom: 1px solid #ddd; border-left:1px solid #ddd;}
 
 
-/***** 9. Tampilan Horisontal Halaman *****/
-/*****************************************/
+/***** 9. HORIZONTAL NAVIGATION STYLES *****/
+/*******************************************/
 
 
 .hornav { list-style: none; margin-top: 15px; border-bottom: 1px solid #ccc; padding: 0 10px; height: 41px; }
@@ -718,8 +718,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 .editornav li.current a:hover { border-color: #ccc; }
 
 
-/***** 10. Tampilan Vertikal Halaman *****/
-/****************************************/
+/***** 10. VERTICAL NAVIGATION STYLES *****/
+/******************************************/
 
 
 .vernav { width: 230px; position: absolute; left: 0; top: 160px; }
@@ -859,8 +859,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 
 .the_menu { display:none; width:100%; border:none;}
 
-/***** 11. Bagian Tengah Konten *****/
-/***********************************/
+/***** 11. CENTER CONTENT STYLES *****/
+/*************************************/
 
 
 .centercontent { margin-left: 230px; position: relative;}
@@ -872,8 +872,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 .withmenucoll2 .centercontent { margin-left: 35px; }
 
 
-/***** 12. Bagian Min Konten *****/
-/********************************/
+/***** 12. MAIN CONTENT STYLES *****/
+/***********************************/
 
 
 .contentwrapper { padding: 20px; border-left:1px solid #ddd;}
@@ -892,8 +892,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 
 
 
-/***** 13. Bagian Dashboard *****/
-/*******************************/
+/***** 13. DASHBOARD STYLES *****/
+/********************************/
 
 .shortcuts { list-style: none; }
 .shortcuts li { 
@@ -944,8 +944,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 .overviewtable tbody tr td { font-size: 24px; color: #111; font-family: 'RobotoBoldCondensed', Arial, Helvetica, sans-serif; }
 
 
-/***** 14. File Manager *****/
-/***************************/
+/***** 14. FILE MANAGER STYLES *****/
+/***********************************/
 
 
 .filemgr { position: relative; min-height: 400px; }
@@ -1041,8 +1041,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 
 
 
-/***** 15. Panel Kanan *****/
-/**************************/
+/***** 15. RIGHT PANEL STYLES *****/
+/**********************************/
 
 
 .rightpanel { width: 250px; position: absolute; top: 85px; right: 10px; }
@@ -1054,8 +1054,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 .widgetbox .title h4 { font-size: 16px; font-weight: normal; text-transform: uppercase; }
 
 
-/***** 16. Kotak Widget *****/
-/***************************/
+/***** 16. WIDGET BOX STYLES *****/
+/*********************************/
 
 .widgetbox { }
 .widgetbox .title { margin: 20px 0; }
@@ -1104,7 +1104,7 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 	text-transform: uppercase; font-weight: bold; border-top: 1px solid #ddd; }
 .userlistwidget .more:hover { text-decoration: none; background: #e7e7e7; }
 
-/***** Aktivitas Terakhir *****/
+/***** RECENT ACTIVITY *****/
 .recent_list { list-style: none; font-size: 11px; line-height: 16px; }
 .recent_list li { 
 	display: block; background-color: #eee; background-repeat: no-repeat; background-position: 10px 10px; 
@@ -1130,7 +1130,7 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 
 
 
-/****** List Direktori *******/
+/****** Directory List *******/
 .activitylist { list-style: none; }
 .activitylist li { display: block; /*border-bottom: 1px solid #eee;*/ }
 .activitylist li a { display: block; padding: 7px 5px 8px 40px; color: #666; margin: 1px; background-repeat: no-repeat; background-position: 8px center; }
@@ -1145,8 +1145,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 .activitylist li.drive a { background-image: url(../images/icons/drive.png); }
 
 
-/***** 17. Konten Slide *****/
-/***************************/
+/***** 17. CONTENT SLIDER STYLES *****/
+/*************************************/
 
 .bx-wrapper { border: 1px solid #ddd; width: auto !important; line-height: 21px; overflow: hidden; }
 .slide_wrap{ padding: 20px 50px ; min-height: 60px; }
@@ -1167,8 +1167,8 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 .slide_content p { margin: 10px 0; }
 
 
-/***** 18. Tampilan Kalender *****/
-/********************************/
+/***** 18. CALENDAR STYLES *****/
+/*******************************/
 
 
 #external-events p { font-size: 11px; }
@@ -1195,8 +1195,8 @@ input.hasDatepicker {
 
 
 
-/***** 19. Tabel Tanpa Border *****/
-/*********************************/
+/***** 19. STANDARD TABLES NO BORDER *****/
+/**************************************/
 
 .noborder { width: 100%; }
 .noborder .con0 { background: #fff; }
@@ -1235,8 +1235,8 @@ input.hasDatepicker {
 
 
 
-/***** 19. Tampila Tabel Standar *****/
-/************************************/
+/***** 19. STANDARD TABLES STYLES *****/
+/**************************************/
 
 
 .stdtable { width: 100%; }
@@ -1314,8 +1314,8 @@ input.hasDatepicker {
 .dataTables_paginate .paginate_button:hover { background: #ddd; border: 1px solid #ccc; cursor: pointer; color: #333; }
 
 
-/***** 20. Tampilan Form *****/
-/****************************/
+/***** 20. STANDARD FORM STYLES *****/
+/************************************/
 
 
 form input[type=text] { 
@@ -1414,7 +1414,7 @@ form label.error { float: none; color: #f00; font-size: 11px; display: block; te
 
 
 
-/***** 21. Tampilan Guide *****/
+/***** 21. WIZARD STYLES *****/
 /*****************************/
 
 
@@ -1443,7 +1443,7 @@ form label.error { float: none; color: #f00; font-size: 11px; display: block; te
 .wizard .hormenu li a.selected span.h2 { color: #fb9337; }
 
 
-/***** Tabbed Guide *****/
+/***** TABBED WIZARD *****/
 .wizard .tabbedmenu { list-style: none; background: #f7f7f7; padding: 10px; padding-bottom: 0; border: 1px solid #ddd; }
 .wizard .tabbedmenu li { display: inline-block; margin-right: 5px; position: relative; bottom: -1px; }
 .wizard .tabbedmenu li a { display: block; padding: 10px 20px; color: #999; border: 1px solid #ddd; background: #eee; }
@@ -1494,7 +1494,7 @@ form label.error { float: none; color: #f00; font-size: 11px; display: block; te
 .actionBar .msgBox .close:hover { background: #333; color: #eee; }
 
 
-/***** Vertikal Guide *****/
+/***** VERTICAL WIZARD *****/
 .verwizard .verticalmenu { list-style: none; float: left; width: 250px; }
 .verwizard .verticalmenu li { margin-bottom: 2px; }
 .verwizard .verticalmenu a { display: block; padding: 10px; color: #999; }
@@ -1507,7 +1507,7 @@ form label.error { float: none; color: #f00; font-size: 11px; display: block; te
 
 
 
-/***** 22. Tampilan Blog *****/
+/***** 22. BLOG STYLES *****/
 /***************************/
 
 
@@ -1535,8 +1535,8 @@ form label.error { float: none; color: #f00; font-size: 11px; display: block; te
 
 
 
-/***** 23. Prosses Bar *****/
-/**************************/
+/***** 23. PROGRESS BAR STYLES *****/
+/***********************************/
 
 
 .progress { margin: 5px 0; }
@@ -1559,8 +1559,8 @@ form label.error { float: none; color: #f00; font-size: 11px; display: block; te
 .progress150 { width: 150px; }
 
 
-/***** 24. Tampilan Pagnation *****/
-/*********************************/
+/***** 24. PAGINATION STYLE *****/
+/********************************/
 .page {margin:10px 10px 0 10px;}
 
 .pagination { list-style: none; overflow: hidden; }
@@ -1581,8 +1581,8 @@ form label.error { float: none; color: #f00; font-size: 11px; display: block; te
 
 
 
-/***** Popup *****/
-/****************/
+/***** POP UP PAGINATION STYLE *****/
+/********************************/
 
 .popup_page { list-style: none; overflow: hidden; margin:auto; width:60%;}
 .popup_page li { display: inline-block; float: left; margin-right: 3px; }
@@ -1600,8 +1600,8 @@ form label.error { float: none; color: #f00; font-size: 11px; display: block; te
 
 .popup_page2 li a { padding: 4px 12px 6px 12px; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px; }
 
-/***** 25. Scroll Bar Tipis *****/
-/*******************************/
+/***** 25. SLIM SCROLLBAR STYLES *****/
+/*************************************/
 
 
 .slimScrollDiv { border: none; }
