@@ -5,7 +5,7 @@
 
 simak design layout merupakan sebuah tugas kelompok untuk mendesain halaman muka sistem akademik Universitas Siliwangi yang digagas oleh mahasiswa Teknik Informatika Universitas Siliwangi dengan menggunakan **HTML5**.
 
-### Kontributor
+### Kolabolator
 1. Firnanda Satria
 2. Muhammad Rizky S.P
 3. Sofian Nugraha
@@ -26,3 +26,5 @@ Beberapa pengatahuan dasar yang dibutuhkan untuk pengembangan
 ### Tampilan Layout
 
 Berikut ini tampilan halaman Login SIMAK UNSIL
+
+![image](http://www.inipic.com/pictures/228b25bed6d1efd9fb306332a6d239dd.png)
