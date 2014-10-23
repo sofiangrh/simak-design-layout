@@ -93,10 +93,10 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 .ColumnInfo {width:400px; margin-right:20px; float:left;}
 .boxlogo {font-weight:bold; display:inline-block; margin-bottom:50px;}
 .logoIndex {width:70px; height:70px; margin-right:10px; float:left;}
-.titleunv {float:left ;color:#1D576E; text-transform:uppercase; line-height:20px; text-shadow:0 1px 0 #fff; width:320px; overflow: hidden;}
-.address {color:#e26a00; float:left; text-shadow:0 1px 0 #fff; width:320px; overflow: hidden; line-height: 17px;}
+.titleunv {float:left ;color:#000000; text-transform:uppercase; line-height:20px; text-shadow:0 1px 0 #fff; width:320px; overflow: hidden;}
+.address {color:#000000; float:left; text-shadow:0 1px 0 #fff; width:320px; overflow: hidden; line-height: 17px;}
 
-.ColumnInfo .heading {color:#1d576e; text-shadow:0 1px 0 #fff; padding:5px 0px 5px 40px; background:url(../images/icons/shortinfo.png) no-repeat left -1px; margin-bottom:10px;}
+.ColumnInfo .heading {color:#000000; text-shadow:0 1px 0 #fff; padding:5px 0px 5px 40px; background:url(..images/icons/sekilas-info.png) no-repeat left -1px; margin-bottom:10px;}
 .contentInfo {height:400px;}
 .lineInfo {margin:0px; padding:0px;}
 .lineInfo li:last-child {border-bottom:none;}
@@ -104,11 +104,11 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 /*.lineInfo .icon2 {display:block; padding:12px 0 12px 90px; border-bottom:1px solid #a3a3a3; background:url(../images/icon2.png) no-repeat 5px 20px;}
 .lineInfo .icon3 {display:block; padding:12px 0 12px 90px; border-bottom:1px solid #a3a3a3; background:url(../images/icon3.png) no-repeat 5px 13px;}*/
 .lineInfo li span {color:#1d576e; font-size:12px; font-weight:bold; text-shadow:0 1px 0 #fff;}
-.lineInfo li cite {font-size:11px; text-shadow:0 1px 0 #fff; color:#e26a00;}
+.lineInfo li cite {font-size:11px; text-shadow:0 1px 0 #fff; color:#d4aa00;}
 .lineInfo li > p {color:#6c6b6b; text-shadow:0 1px 0 #fff;}
 
 .loginboxinner { 
-	width:300px; padding: 20px; background: #215F78; -moz-border-radius: 0 2px 2px 0; 
+	width:300px; padding: 20px; background: #078A48; -moz-border-radius: 0 2px 2px 0; 
 	-webkit-border-radius: 0 0 2px 2px; border-radius: 0 0 2px 2px; float:right;
 }
 .loginbox .logo { text-align: center; }
@@ -163,11 +163,11 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 }
 .spamBox {color:#fff;}
 .antispam {text-align:left; font-size:12px; font-weight:bold;}
-.codenumber { border:1px solid #468db4; width:220px;}
+.codenumber { border:1px solid #D3A900; width:220px;}
 .info {list-style:square; font-size:10px; margin:0 0 10px 10px;}
 
 .loginbox button { 
-	background: #f0801d url(../images/btngrad.png) repeat-x top left; border: 0; padding: 10px 0; text-align: center; 
+	background: #D3A900 url(../images/btngrad.png) repeat-x top left; border: 0; padding: 10px 0; text-align: center; 
 	font-family: 'RobotoCondensed', Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; width: 30%; text-transform: uppercase;  
 	-moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4); 
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4); box-shadow: 0 1px 2px rgba(0,0,0,0.4);
@@ -192,7 +192,7 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 }
 .loginpage .nopassword .userlogged { display: inline-block; margin-left: 10px; font-weight: bold; }
 .loginpage .nopassword .userlogged h4 { font-size: 14px; font-family: 'RobotoCondensed', Arial, Helvetica, sans-serif; }
-.loginpage .nopassword .userlogged a { color: #f0801d; font-style: italic; }
+.loginpage .nopassword .userlogged a { color: #D3A900; font-style: italic; }
 .loginpage .nopassword .userlogged a:hover { text-decoration: underline; }
 .loginpage .notibar { border: 0; }
 
@@ -771,7 +771,7 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 
 
 .iconmenu ul li a { 
-	padding-left: 35px; background-image: url(../images/default/icons_sprites.png); background-repeat: no-repeat; background-position: 10px 12px; 
+	padding-left: 35px; background-image: url(../images/default/icons_sprite.png); background-repeat: no-repeat; background-position: 10px 12px; 
 }
 .iconmenu ul li a:hover { background-image: url(../images/default/icons_sprite2.png); }
 .iconmenu ul li.current a:hover { background-image: url(../images/default/icons_sprite.png); }
@@ -2807,7 +2807,7 @@ blockquote.bq2 {
 .codenumber {height:50px;}
 	
 	.ColumnInfo { width:265px; margin:50px 10px;}
-	.ColumnInfo .heading { font-size:20px; color:#fff; text-shadow:0 1px 0 #0f3e51; background:url(../images/icons/shortinfo.png) no-repeat left -36px;}
+	.ColumnInfo .heading { font-size:20px; color:#fff; text-shadow:0 1px 0 #0f3e51; background:url(..images/icons/sekilas-info.png) no-repeat left -36px;}
 	.lineInfo li span {color:#fff; text-shadow:none;}
 	.lineInfo li cite {color:#fff; text-shadow:none;}
 	.lineInfo li > p { color:#fff; text-shadow:none;}
