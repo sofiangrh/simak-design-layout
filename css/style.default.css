@@ -104,7 +104,7 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 /*.lineInfo .icon2 {display:block; padding:12px 0 12px 90px; border-bottom:1px solid #a3a3a3; background:url(../images/icon2.png) no-repeat 5px 20px;}
 .lineInfo .icon3 {display:block; padding:12px 0 12px 90px; border-bottom:1px solid #a3a3a3; background:url(../images/icon3.png) no-repeat 5px 13px;}*/
 .lineInfo li span {color:#1d576e; font-size:12px; font-weight:bold; text-shadow:0 1px 0 #fff;}
-.lineInfo li cite {font-size:11px; text-shadow:0 1px 0 #fff; color:#e26a00;}
+.lineInfo li cite {font-size:11px; text-shadow:0 1px 0 #fff; color:#d4aa00;}
 .lineInfo li > p {color:#6c6b6b; text-shadow:0 1px 0 #fff;}
 
 .loginboxinner { 
