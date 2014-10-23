@@ -5,6 +5,12 @@
 
 simak design layout merupakan sebuah tugas kelompok untuk mendesain halaman muka sistem akademik Universitas Siliwangi yang digagas oleh mahasiswa Teknik Informatika Universitas Siliwangi dengan menggunakan **HTML5**.
 
+### Kontributor
+1. Firnanda Satria
+2. Muhammad Rizky S.P
+3. Sofian Nugraha
+4. Yuliawati
+5. Yuni Jamilah
 
 ### Pengetahuan Dasar
 
