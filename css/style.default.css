@@ -86,7 +86,6 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 /***** 4. LOGIN PAGE *****/
 /*************************/
 
-.loginpage { background:url(../images/default/bg_login.jpg); }
 .loginbox { 
 	width:770px; padding: 5px; margin: 1% auto 0 auto; -moz-border-radius: 2px; -webkit-border-radius: 2px;
 	border-radius: 2px;}
@@ -96,7 +95,7 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 .titleunv {float:left ;color:#000000; text-transform:uppercase; line-height:20px; text-shadow:0 1px 0 #fff; width:320px; overflow: hidden;}
 .address {color:#000000; float:left; text-shadow:0 1px 0 #fff; width:320px; overflow: hidden; line-height: 17px;}
 
-.ColumnInfo .heading {color:#000000; text-shadow:0 1px 0 #fff; padding:5px 0px 5px 40px; background:url(..images/icons/sekilas-info.png) no-repeat left -1px; margin-bottom:10px;}
+.ColumnInfo .heading {color:#000000; text-shadow:0 1px 0 #fff; padding:-5px 0px 5px 40px; margin-bottom:15px;}
 .contentInfo {height:400px;}
 .lineInfo {margin:0px; padding:0px;}
 .lineInfo li:last-child {border-bottom:none;}
@@ -104,11 +103,11 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 /*.lineInfo .icon2 {display:block; padding:12px 0 12px 90px; border-bottom:1px solid #a3a3a3; background:url(../images/icon2.png) no-repeat 5px 20px;}
 .lineInfo .icon3 {display:block; padding:12px 0 12px 90px; border-bottom:1px solid #a3a3a3; background:url(../images/icon3.png) no-repeat 5px 13px;}*/
 .lineInfo li span {color:#1d576e; font-size:12px; font-weight:bold; text-shadow:0 1px 0 #fff;}
-.lineInfo li cite {font-size:11px; text-shadow:0 1px 0 #fff; color:#d4aa00;}
-.lineInfo li > p {color:#6c6b6b; text-shadow:0 1px 0 #fff;}
+.lineInfo li cite {font-size:11px; text-shadow:0 1px 0 #fff; color:#D3A900;}
+.lineInfo li > p {color:#000000; text-shadow:0 1px 0 #fff;}
 
 .loginboxinner { 
-	width:300px; padding: 20px; background: #078A48; -moz-border-radius: 0 2px 2px 0; 
+	width:300px; height:537px; padding: 20px; background: #078A48; -moz-border-radius: 0 2px 2px 0; 
 	-webkit-border-radius: 0 0 2px 2px; border-radius: 0 0 2px 2px; float:right;
 }
 .loginbox .logo { text-align: center; }
@@ -172,7 +171,7 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 	-moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4); 
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4); box-shadow: 0 1px 2px rgba(0,0,0,0.4);
 }
-.loginbox button:hover { background-color: #f0721e; }
+.loginbox button:hover { background-color: #B89402; }
 .loginbox .keep { margin-top: 20px; font-weight: bold; color: #ccc; font-size: 11px; }
 .loginbox .loginmsg { 
 	background: #fffccc; color: #333; margin-bottom: 10px; padding: 5px; text-align: center; font-size: 11px; 
@@ -1173,6 +1172,7 @@ body.withmenucoll2 { background-position: 35px 0; } /* with menu style 2 in coll
 
 #external-events p { font-size: 11px; }
 .external-event { 
+
 	background: #FB9337; color: #fff; padding: 8px 10px; margin-bottom: 5px; font-weight: bold; 
 	-moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; cursor: move;
 }
@@ -2748,6 +2748,7 @@ blockquote.bq2 {
 	.tables .stdtablequick th:nth-child(3), .tables .stdtablequick td:nth-child(3){ display: none; }
 }
 
+
 @media screen and (max-width: 425px) {
 	
 	.headermenu li a { padding: 17px 5px; }
@@ -2807,7 +2808,7 @@ blockquote.bq2 {
 .codenumber {height:50px;}
 	
 	.ColumnInfo { width:265px; margin:50px 10px;}
-	.ColumnInfo .heading { font-size:20px; color:#fff; text-shadow:0 1px 0 #0f3e51; background:url(..images/icons/sekilas-info.png) no-repeat left -36px;}
+	.ColumnInfo .heading { font-size:20px; color:#fff; text-shadow:0 1px 0 #0f3e51}
 	.lineInfo li span {color:#fff; text-shadow:none;}
 	.lineInfo li cite {color:#fff; text-shadow:none;}
 	.lineInfo li > p { color:#fff; text-shadow:none;}
