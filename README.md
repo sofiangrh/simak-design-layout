@@ -1,8 +1,4 @@
-# simak-design-layout
----
-
 ### Tentang simak design layout
-
 simak design layout merupakan sebuah tugas kelompok untuk mendesain halaman muka sistem akademik Universitas Siliwangi yang digagas oleh mahasiswa Teknik Informatika Universitas Siliwangi dengan menggunakan **HTML5**.
 
 ### Kolaborator
@@ -13,7 +9,6 @@ simak design layout merupakan sebuah tugas kelompok untuk mendesain halaman muka
 5. Yuni Jamilah
 
 ### Pengetahuan Dasar
-
 Beberapa pengatahuan dasar yang dibutuhkan untuk pengembangan
 
 1. Dasar Pemrograman **HTML5**
@@ -27,4 +22,4 @@ Beberapa pengatahuan dasar yang dibutuhkan untuk pengembangan
 
 Berikut ini tampilan halaman Login SIMAK UNSIL
 
-![image]("https://i.ibb.co/NVgqh60/layout.png")
+<img src="https://i.ibb.co/NVgqh60/layout.png">
