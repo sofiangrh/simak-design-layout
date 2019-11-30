@@ -1,4 +1,4 @@
-#simak-design-layout
+# simak-design-layout
 ---
 
 ### Tentang simak design layout
@@ -27,4 +27,4 @@ Beberapa pengatahuan dasar yang dibutuhkan untuk pengembangan
 
 Berikut ini tampilan halaman Login SIMAK UNSIL
 
-![image](http://www.inipic.com/pictures/228b25bed6d1efd9fb306332a6d239dd.png)
+![image]("https://ibb.co/6ncShRK"><img src="https://i.ibb.co/NVgqh60/layout.png")
