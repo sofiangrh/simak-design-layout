@@ -27,4 +27,4 @@ Beberapa pengatahuan dasar yang dibutuhkan untuk pengembangan
 
 Berikut ini tampilan halaman Login SIMAK UNSIL
 
-![image]("https://ibb.co/6ncShRK"><img src="https://i.ibb.co/NVgqh60/layout.png")
+![image]("https://i.ibb.co/NVgqh60/layout.png")
